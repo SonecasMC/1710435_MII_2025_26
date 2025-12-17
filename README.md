@@ -56,7 +56,7 @@ void listarEncomendas() {
 		printf("\nCliente: %s", encomendas[i].cliente);
 		printf("\nProduto: %s", encomendas[i].produto);
 		printf("\nQuantidade: %d", encomendas[i].quantidade);
-		printf("\nPreC'o unitC!rio: R$ %.2f", encomendas[i].preco);
+		printf("\nPreço unitário: R$ %.2f", encomendas[i].preco);
 		printf("\nTotal: R$ %.2f\n",
 		       encomendas[i].quantidade * encomendas[i].preco);
 	}
